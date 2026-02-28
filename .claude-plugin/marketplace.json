@@ -1,0 +1,15 @@
+{
+  "name": "readwise-skills",
+  "owner": {
+    "name": "Readwise",
+    "url": "https://readwise.io"
+  },
+  "plugins": [
+    {
+      "name": "readwise",
+      "source": "./",
+      "description": "Agent skills for Readwise Reader",
+      "version": "0.1.0"
+    }
+  ]
+}

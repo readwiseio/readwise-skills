@@ -1,0 +1,21 @@
+{
+  "name": "readwise",
+  "version": "0.1.0",
+  "description": "Agent skills for Readwise Reader — triage your inbox, catch up on feeds, quiz yourself on what you've read, and more. Requires Readwise Reader MCP or CLI.",
+  "author": {
+    "name": "Readwise",
+    "url": "https://readwise.io"
+  },
+  "repository": "https://github.com/readwiseio/readwise-skills",
+  "license": "MIT",
+  "keywords": [
+    "readwise",
+    "reader",
+    "reading",
+    "highlights",
+    "triage",
+    "rss",
+    "mcp",
+    "cli"
+  ]
+}
