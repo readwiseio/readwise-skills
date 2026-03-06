@@ -1,13 +1,13 @@
-Agent skills for [Readwise Reader](https://readwise.io/read). Triage your inbox, catch up on feeds, quiz yourself on what you've read, and more.
+Agent skills for [Readwise](https://readwise.io) and [Reader](https://readwise.io/read). Triage your inbox, catch up on feeds, quiz yourself on what you've read, and more.
 
-These skills work with the Readwise Reader [MCP server](https://readwise.io/mcp) or [CLI](https://readwise.io/cli). They follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code and Codex CLI.
+These skills work with the Readwise Reader [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli). They follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code and Codex CLI.
 
 ## Prerequisites
 
 You need one of:
 
-- **Readwise Reader MCP server** — connected to your agent ([setup guide](https://readwise.io/mcp))
-- **Readwise CLI** — installed and authenticated ([install guide](https://readwise.io/cli))
+- **Readwise Reader MCP server** — connected to your agent ([setup guide](https://mcp2.readwise.io))
+- **Readwise CLI** — installed and authenticated ([install guide](https://github.com/readwiseio/readwise-cli))
 
 Skills auto-detect which is available and use it.
 
