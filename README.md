@@ -33,7 +33,7 @@ Copy the `skills/` directory into your agent's skills path:
 - **Codex CLI:** `~/.codex/skills/`
 - **OpenCode:** `~/.opencode/skills/`
 
-## Skills
+## Built-in Skills
 
 | Skill | Description |
 |-------|-------------|
@@ -43,6 +43,11 @@ Copy the `skills/` directory into your agent's skills path:
 | [quiz](skills/quiz) | Test yourself on something you just read — graded like a smart colleague who also read the piece |
 | [now-reading-page](skills/now-reading-page) | Generate a "What I'm Reading" webpage from your library — host it on your personal site |
 
-## Personalization
+
+### Personalization
 
 Run the `build-persona` skill first to generate a `reader_persona.md` file. The other skills (triage, feed-catchup, quiz) read this file to personalize their output to your interests, goals, and reading style.
+
+## Please share yours!
+
+These skills are just a starting point, quickly hacked up by the Readwise team based on what's been for us to try. There is still so so much more that can be done. Please make a pull request adding your own favorite skills, or [shoot us an email](mailto:hello@readwise.io) at any time :)

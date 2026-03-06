@@ -39,7 +39,7 @@ Also collect ALL `last_opened_at` dates from archive items with `reading_progres
 
 ### 4. Generate HTML
 
-Write a single standalone HTML file to `now_reading.html` in the current working directory.
+Create a `now-reading/` directory in the current working directory (if it doesn't exist) and write the HTML file to `now-reading/index.html`.
 
 **Design direction:** Warm, sepia-toned, editorial. Think personal reading log, not media dashboard.
 
@@ -92,5 +92,5 @@ Return the absolute path to the generated HTML file and a summary: how many curr
 ## After Subagent Returns
 
 1. Tell the user the file was generated and where it is
-2. Offer to open it in their browser: `open now_reading.html`
+2. Offer to open it in their browser: `open now-reading/index.html`
 3. Ask if they want to adjust anything
