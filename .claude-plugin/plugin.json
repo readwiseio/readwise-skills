@@ -1,7 +1,7 @@
 {
   "name": "readwise",
   "version": "0.1.0",
-  "description": "Agent skills for Readwise Reader — triage your inbox, catch up on feeds, quiz yourself on what you've read, and more. Requires Readwise Reader MCP or CLI.",
+  "description": "Readwise and Reader for Claude Code — MCP server + agent skills. Triage your inbox, catch up on feeds, quiz yourself on what you've read, and more.",
   "author": {
     "name": "Readwise",
     "url": "https://readwise.io"

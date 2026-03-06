@@ -1,55 +1,36 @@
 Agent skills for [Readwise](https://readwise.io) and [Reader](https://readwise.io/read). Triage your inbox, catch up on feeds, quiz yourself on what you've read, and more.
 
-These skills work with the Readwise Reader [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli). They follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code and Codex CLI.
-
-## Prerequisites
-
-You need one of:
-
-- **Readwise Reader MCP server** — connected to your agent ([setup guide](https://mcp2.readwise.io))
-- **Readwise CLI** — installed and authenticated ([install guide](https://github.com/readwiseio/readwise-cli))
-
-Skills auto-detect which is available and use it.
+These skills work with the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli). They follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex CLI, and OpenCode.
 
 ## Installation
 
-### Marketplace
+### Claude Code
+
+Installs the MCP server and all skills in one command:
 
 ```
-/plugin marketplace add readwiseio/readwise-skills
-/plugin install readwise@readwise-skills
+/install readwiseio/readwise-skills
+```
+
+You'll need to set your Readwise access token — get it at [readwise.io/access_token](https://readwise.io/access_token):
+
+```
+export READWISE_ACCESS_TOKEN=your_token_here
 ```
 
 ### npx skills
 
 ```
-npx skills add git@github.com:readwiseio/readwise-skills.git
-```
-
-### Readwise CLI
-
-```
-readwise skills install claude
-readwise skills install --all
+npx skills add readwiseio/readwise-skills
 ```
 
 ### Manually
 
-#### Claude Code
+Copy the `skills/` directory into your agent's skills path:
 
-Copy the `skills/` directory into `~/.claude/skills/` or into a `.claude/skills/` folder in your project. See the [official Claude Skills documentation](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview).
-
-#### Codex CLI
-
-Copy the `skills/` directory into your Codex skills path (typically `~/.codex/skills`). See the [Agent Skills specification](https://agentskills.io/specification).
-
-#### OpenCode
-
-Clone the repo into the OpenCode skills directory:
-
-```sh
-git clone https://github.com/readwiseio/readwise-skills.git ~/.opencode/skills/readwise-skills
-```
+- **Claude Code:** `~/.claude/skills/` or `.claude/skills/` in your project
+- **Codex CLI:** `~/.codex/skills/`
+- **OpenCode:** `~/.opencode/skills/`
 
 ## Skills
 

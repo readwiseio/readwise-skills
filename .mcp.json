@@ -1,0 +1,9 @@
+{
+  "readwise": {
+    "type": "sse",
+    "url": "https://mcp2.readwise.io/sse",
+    "headers": {
+      "Authorization": "Bearer ${READWISE_ACCESS_TOKEN}"
+    }
+  }
+}
