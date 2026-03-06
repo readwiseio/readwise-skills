@@ -9,7 +9,7 @@ These skills work with the Readwise [MCP server](https://mcp2.readwise.io) or [C
 Installs the MCP server and all skills in one command:
 
 ```
-/install readwiseio/readwise-skills
+/plugin install readwise-skills
 ```
 
 You'll need to set your Readwise access token — get it at [readwise.io/access_token](https://readwise.io/access_token):
