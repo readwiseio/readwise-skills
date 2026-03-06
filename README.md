@@ -4,7 +4,7 @@ These skills work with the Readwise [MCP server](https://mcp2.readwise.io) or [C
 
 ## Installation
 
-### Claude Code
+### Claude Code / Cowork
 
 Installs the MCP server and all skills in one command:
 
