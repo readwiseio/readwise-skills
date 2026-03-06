@@ -1,10 +1,12 @@
 Agent skills for [Readwise](https://readwise.io) and [Reader](https://readwise.io/read). Triage your inbox, catch up on feeds, quiz yourself on what you've read, and more.
 
-These skills work with the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli). They can be used by any [skills-compatible](https://agentskills.io/specification) agent, including Claude Code, Codex CLI, OpenCode, and more!
+These skills work using either the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli) -- whichever you prefer! 
+
+The skills can be used by any skills-compatible agent, including Claude Code, Codex CLI, OpenCode, and more!
 
 ## Installation
 
-### Claude Code / Cowork
+### Claude Code
 
 Installs the MCP server and all skills in one command:
 
@@ -18,6 +20,10 @@ You'll need to set your Readwise access token — get it at [readwise.io/access_
 ```
 export READWISE_ACCESS_TOKEN=your_token_here
 ```
+
+### Claude Cowork
+
+In the Cowork sidebar: **Customize → "+" → Add marketplace from GitHub** → enter `readwiseio/readwise-skills`. Then browse and install the Readwise plugin.
 
 ### npx skills
 
