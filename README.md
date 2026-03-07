@@ -1,4 +1,4 @@
-Agent skills for [Readwise](https://readwise.io) and [Reader](https://readwise.io/read). Triage your inbox, catch up on feeds, quiz yourself on what you've read, and more.
+Agent skills for [Readwise](https://readwise.io) and [Reader](https://readwise.io/read). Triage your inbox, quiz yourself on what you've read, build a personalized now-reading page, and much more.
 
 These skills work using either the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli) -- whichever you prefer! 
 
@@ -13,12 +13,6 @@ Installs the MCP server and all skills in one command:
 ```
 /plugin marketplace add readwiseio/readwise-skills
 /plugin install readwise@readwise-skills
-```
-
-You'll need to set your Readwise access token — get it at [readwise.io/access_token](https://readwise.io/access_token):
-
-```
-export READWISE_ACCESS_TOKEN=your_token_here
 ```
 
 ### Claude Cowork
@@ -41,6 +35,8 @@ Copy the `skills/` directory into your agent's skills path:
 
 ## Built-in Skills
 
+We've started this repo off with a few skills we've really enjoyed using, but so much more is possible!
+
 | Skill | Description |
 |-------|-------------|
 | [triage](skills/triage) | AI walks you through your inbox one article at a time, telling you what's worth your time and why |
@@ -57,3 +53,4 @@ Run the `build-persona` skill first to generate a `reader_persona.md` file. The 
 ## Please share yours!
 
 These skills are just a starting point, quickly hacked up by the Readwise team based on what's been for us to try. There is still so so much more that can be done. Please make a pull request adding your own favorite skills, or [shoot us an email](mailto:hello@readwise.io) at any time :)
+
