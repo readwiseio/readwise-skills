@@ -1,14 +1,16 @@
-Agent skills for [Readwise](https://readwise.io) and [Reader](https://readwise.io/read). Triage your inbox, quiz yourself on what you've read, build a personalized now-reading page, and much more.
+Agent skills for your [Readwise](https://readwise.io) and [Reader](https://readwise.io/read) data, powered by the Readwise [MCP server](https://mcp2.readwise.io)/[CLI](https://github.com/readwiseio/readwise-cli).
 
-These skills work using either the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli) -- whichever you prefer! Just make sure to install one of them first.
 
-The skills can be used by basically any skills-compatible agent.
+Triage your inbox, quiz yourself on what you've read, build a personalized now-reading page, and more.
+
 
 ## Installation
 
+Prerequisite: make sure you have the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli) installed (whichever you prefer!)
+
 ### npx skills (recommended)
 
-Probably the easiest way to try out these skills is to install them via `npx skills`, which will allow it to work with any CLI app you might use.
+Probably the easiest way to try out these skills is to install them via `npx skills`, which will allow them to work with any LLM app you might use (Claude, Codex, Opencode, Cursor, etc).
 
 ```
 npx skills add readwiseio/readwise-skills
