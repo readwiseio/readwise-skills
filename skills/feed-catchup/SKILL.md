@@ -74,7 +74,7 @@ After the table, give a **brief commentary** (1-2 sentences) on the batch — wh
 
 ### Handling Responses
 
-- **"Mark all seen"** / **"next"** / **"seen"** — For each document in the current batch, call `mcp__readwise__reader_edit_document_metadata` with `seen: true`. Do all calls in parallel. Do not move or archive them. Then display the next batch of 20.
+- **"Mark all seen"** / **"next"** / **"seen"** — Call `mcp__readwise__reader_bulk_edit_document_metadata` with `documents` set to `[{document_id: <id>, seen: true}, ...]` for every document in the current batch. This is a single call, not one per document. Do not move or archive them. Then display the next batch of 20.
 - **"Later N"** — Move that document to `later` location. Confirm briefly, then continue.
 - **"Later N, N, N"** — Move multiple documents to `later`. Confirm briefly.
 - **"Inbox N"** / **"Shortlist N"** / **"Archive N"** — Move to the specified location (`new`, `shortlist`, or `archive`). Confirm briefly.

@@ -72,7 +72,7 @@ When moving to the next document after an action, use `· · ·` as a visual sep
 
 ### Handling Responses
 
-- **"I read it"** / **"read"** / **"done"** / **"great"** / similar — Archive the document using `mcp__readwise__reader_move_document` and move to the next one.
+- **"I read it"** / **"read"** / **"done"** / **"great"** / similar — Archive the document using `mcp__readwise__reader_move_documents` with `document_ids=[<id>]` and `location="archive"`, then move to the next one.
 - **"Later"** — Move document to `later` location and move to the next one.
 - **"Archive"** / **"skip"** — Archive the document and move to the next one.
 - **"Something else"** — Ask what they'd like to do (tag, shortlist, etc.), do it, then move on.
