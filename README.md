@@ -1,9 +1,3 @@
-Agent skills for your [Readwise](https://readwise.io) and [Reader](https://readwise.io/read) data, powered by the Readwise [MCP server](https://readwise.io/mcp)/[CLI](https://readwise.io/cli).
-
-
-Triage your inbox, quiz yourself on what you've read, build a personalized now-reading page, and more.
-
-
 ## Installation
 
 Prerequisite: make sure you have the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli) installed (whichever you prefer!)
