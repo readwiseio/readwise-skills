@@ -2,6 +2,10 @@
 
 Prerequisite: make sure you have the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli) installed (whichever you prefer!)
 
+### Just tell your agent
+
+If you're using an AI agent, tell your agent to install the skills from this repo and let it do the work: https://github.com/readwiseio/readwise-skills
+
 ### npx skills (recommended)
 
 Probably the easiest way to try out these skills is to install them via `npx skills`, which will allow them to work with any LLM app you might use (Claude, Codex, Opencode, Cursor, etc).
@@ -44,6 +48,8 @@ We've started this repo off with a few skills we've really enjoyed using, but so
 | [quiz](skills/quiz) | Test yourself on something you just read — graded like a smart colleague who also read the piece |
 | [now-reading-page](skills/now-reading-page) | Generate a "What I'm Reading" webpage from your library — host it on your personal site |
 | [self-surprise](skills/self-surprise) | Dig through your reading history and tell you something surprising about yourself you didn't know |
+| [search-all](skills/search-all) | Search across both your Readwise highlights and Reader documents in one query |
+| [highlight-graph](skills/highlight-graph) | Visualize your highlights as an interactive 3D graph showing connections between ideas across sources |
 
 
 ### Personalization
