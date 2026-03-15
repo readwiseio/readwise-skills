@@ -1,14 +1,17 @@
 ## Installation
 
-Prerequisite: make sure you have the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli) installed (whichever you prefer!)
+Prerequisite: first, make sure you have the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli) installed (whichever you prefer!)
 
-### Just tell your agent
+If you're using an AI agent, you can probably just tell your agent to install the skills from this repo and let it do the work:
+```
+Install the skills from here https://github.com/readwiseio/readwise-skills so that you can use them.
+```
 
-If you're using an AI agent, tell your agent to install the skills from this repo and let it do the work: https://github.com/readwiseio/readwise-skills
+If that doesn't work:
 
 ### npx skills (recommended)
 
-Probably the easiest way to try out these skills is to install them via `npx skills`, which will allow them to work with any LLM app you might use (Claude, Codex, Opencode, Cursor, etc).
+`npx skills` is a very easy way to install these skills; it will set them to work with any LLM app you might use (Claude, Codex, Opencode, Cursor, etc). Run this from the terminal:
 
 ```
 npx skills add readwiseio/readwise-skills
