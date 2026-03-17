@@ -1,0 +1,19 @@
+name: Publish Skills to ClawHub
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "clawhub/**"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ClawHub CLI
+        run: npm install -g clawhub
+      - name: Publish skills
+        run: clawhub sync --root clawhub --all
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
