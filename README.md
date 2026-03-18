@@ -53,6 +53,7 @@ We've started this repo off with a few skills we've really enjoyed using, but so
 | [book-review](skills/book-review) | Draft a long-form book review from your highlights — synthesizing the book with your broader reading history |
 | [reader-recap](skills/reader-recap) | Conversational briefing on your recent reading — what you finished, highlighted, and had to say about it |
 | [surprise-me](skills/surprise-me) | Analyze your reading history and tell you something surprising you don't know about yourself |
+| [highlight-graph](skills/highlight-graph) | Visualize your highlights as an interactive 2D graph showing connections between ideas across sources |
 | [now-reading-page](skills/now-reading-page) | Generate a "What I'm Reading" webpage from your library — host it on your personal site |
 | [build-persona](skills/build-persona) | Build a reading profile from your highlights, tags, and history — powers personalization across all other skills |
 
