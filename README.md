@@ -45,14 +45,16 @@ We've started this repo off with a few skills we've really enjoyed using, but so
 
 | Skill | Description |
 |-------|-------------|
+| [readwise-cli](skills/readwise-cli) | Teaches your agent how to use the Readwise CLI — command syntax, setup, and common workflows |
+| [readwise-mcp](skills/readwise-mcp) | Teaches your agent how to use the Readwise MCP tools — tool names, parameters, and common workflows |
 | [triage](skills/triage) | AI walks you through your inbox one article at a time, telling you what's worth your time and why |
 | [feed-catchup](skills/feed-catchup) | Skim your Reader feed in batches — RSS, newsletters, Twitter digests — pull out the gems, mark the rest as seen |
-| [build-persona](skills/build-persona) | Build a reading profile from your highlights, tags, and history — powers personalization across all other skills |
 | [quiz](skills/quiz) | Test yourself on something you just read — graded like a smart colleague who also read the piece |
+| [book-review](skills/book-review) | Draft a long-form book review from your highlights — synthesizing the book with your broader reading history |
+| [reader-recap](skills/reader-recap) | Conversational briefing on your recent reading — what you finished, highlighted, and had to say about it |
+| [surprise-me](skills/surprise-me) | Analyze your reading history and tell you something surprising you don't know about yourself |
 | [now-reading-page](skills/now-reading-page) | Generate a "What I'm Reading" webpage from your library — host it on your personal site |
-| [self-surprise](skills/self-surprise) | Dig through your reading history and tell you something surprising about yourself you didn't know |
-| [search-all](skills/search-all) | Search across both your Readwise highlights and Reader documents in one query |
-| [highlight-graph](skills/highlight-graph) | Visualize your highlights as an interactive 3D graph showing connections between ideas across sources |
+| [build-persona](skills/build-persona) | Build a reading profile from your highlights, tags, and history — powers personalization across all other skills |
 
 
 ### Personalization
