@@ -4,7 +4,7 @@ Prerequisite: first, make sure you have the Readwise [MCP server](https://readwi
 
 If you're using an AI agent, you can probably just tell your agent to install the skills from this repo and let it do the work:
 ```
-Install the skills from here https://github.com/readwiseio/readwise-skills so that you can use them. If not installed yet, you can get the Readwise MCP server is a remote MCP server hosted at https://mcp2.readwise.io/mcp OR the CLI can be installed via `npm i @readwise/cli`. You only need one of these.
+Install the skills from here https://github.com/readwiseio/readwise-skills so that you can use them. If neither is installed yet, the Readwise MCP server is a remote MCP server hosted at https://mcp2.readwise.io/mcp OR the CLI can be installed via `npm i @readwise/cli`. You only need one of these installed to use the skills.
 ```
 
 If that doesn't work:
