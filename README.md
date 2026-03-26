@@ -1,10 +1,10 @@
 ## Installation
 
-Prerequisite: first, make sure you have the Readwise [MCP server](https://mcp2.readwise.io) or [CLI](https://github.com/readwiseio/readwise-cli) installed (whichever you prefer!)
+Prerequisite: first, make sure you have the Readwise [MCP server](https://readwise.io/mcp) or [CLI](https://github.com/readwiseio/readwise-cli) installed (whichever you prefer!)
 
 If you're using an AI agent, you can probably just tell your agent to install the skills from this repo and let it do the work:
 ```
-Install the skills from here https://github.com/readwiseio/readwise-skills so that you can use them.
+Install the skills from here https://github.com/readwiseio/readwise-skills so that you can use them. If not installed yet, you can get the Readwise MCP server is a remote MCP server hosted at https://mcp2.readwise.io/mcp OR the CLI can be installed via `npm i @readwise/cli`. You only need one of these.
 ```
 
 If that doesn't work:
