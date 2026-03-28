@@ -1,5 +1,5 @@
 ---
-name: quiz
+name: readwise-quiz
 description: Quiz yourself on documents you've recently read to test understanding and retention
 ---
 

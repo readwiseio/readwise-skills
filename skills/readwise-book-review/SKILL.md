@@ -1,5 +1,5 @@
 ---
-name: book-review
+name: readwise-book-review
 description: Draft a long-form book review from your Reader highlights — synthesizing the book with your broader reading history to generate original arguments
 ---
 

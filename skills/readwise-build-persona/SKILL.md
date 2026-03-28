@@ -1,5 +1,5 @@
 ---
-name: build-persona
+name: readwise-build-persona
 description: Build a personalized reading profile from your Readwise Reader data, used by triage, quiz, and other skills
 ---
 
