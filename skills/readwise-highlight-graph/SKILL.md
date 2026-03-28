@@ -1,5 +1,5 @@
 ---
-name: highlight-graph
+name: readwise-highlight-graph
 description: Visualize your highlights and their connections in an interactive 2D graph
 metadata:
   openclaw:

@@ -1,5 +1,5 @@
 ---
-name: triage
+name: readwise-triage
 description: Triage Reader inbox one doc at a time with personalized pitches
 ---
 
