@@ -16,9 +16,9 @@ Check if Readwise MCP tools are available (e.g. `mcp__readwise__reader_list_docu
 2. **Determine time window.** Parse the argument as a number of days. Default to 1 (last 24 hours) if no argument is given.
 
 ```
-/reader-recap           # last 24 hours
-/reader-recap 7         # last 7 days
-/reader-recap 30        # last 30 days
+/readwise-reader-recap           # last 24 hours
+/readwise-reader-recap 7         # last 7 days
+/readwise-reader-recap 30        # last 30 days
 ```
 
 ## Step 1: Fetch Recent Documents

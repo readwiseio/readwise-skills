@@ -20,8 +20,8 @@ Check if Readwise MCP tools are available (e.g. `mcp__readwise__reader_list_docu
 2. **Parse the argument** as a book title or search term.
 
 ```
-/book-review Merchant Kings
-/book-review 7 Powers
+/readwise-book-review Merchant Kings
+/readwise-book-review 7 Powers
 ```
 
 ---
