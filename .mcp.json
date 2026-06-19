@@ -1,6 +1,6 @@
 {
   "readwise": {
-    "type": "sse",
-    "url": "https://mcp2.readwise.io/sse"
+    "type": "http",
+    "url": "https://mcp2.readwise.io/mcp"
   }
 }
