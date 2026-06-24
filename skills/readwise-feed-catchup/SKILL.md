@@ -1,5 +1,5 @@
 ---
-name: feed-catchup
+name: readwise-feed-catchup
 description: Catch up on your RSS feed — highlights up top, full browse below
 ---
 

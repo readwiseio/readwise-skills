@@ -47,20 +47,20 @@ We've started this repo off with a few skills we've really enjoyed using, but so
 |-------|-------------|
 | [readwise-cli](skills/readwise-cli) | Teaches your agent how to use the Readwise CLI — command syntax, setup, and common workflows |
 | [readwise-mcp](skills/readwise-mcp) | Teaches your agent how to use the Readwise MCP tools — tool names, parameters, and common workflows |
-| [triage](skills/triage) | AI walks you through your inbox one article at a time, telling you what's worth your time and why |
-| [feed-catchup](skills/feed-catchup) | Skim your Reader feed in batches — RSS, newsletters, Twitter digests — pull out the gems, mark the rest as seen |
-| [quiz](skills/quiz) | Test yourself on something you just read — graded like a smart colleague who also read the piece |
-| [book-review](skills/book-review) | Draft a long-form book review from your highlights — synthesizing the book with your broader reading history |
-| [reader-recap](skills/reader-recap) | Conversational briefing on your recent reading — what you finished, highlighted, and had to say about it |
-| [surprise-me](skills/surprise-me) | Analyze your reading history and tell you something surprising you don't know about yourself |
-| [highlight-graph](skills/highlight-graph) | Visualize your highlights as an interactive 2D graph showing connections between ideas across sources |
-| [now-reading-page](skills/now-reading-page) | Generate a "What I'm Reading" webpage from your library — host it on your personal site |
-| [build-persona](skills/build-persona) | Build a reading profile from your highlights, tags, and history — powers personalization across all other skills |
+| [readwise-triage](skills/readwise-triage) | AI walks you through your inbox one article at a time, telling you what's worth your time and why |
+| [readwise-feed-catchup](skills/readwise-feed-catchup) | Skim your Reader feed in batches — RSS, newsletters, Twitter digests — pull out the gems, mark the rest as seen |
+| [readwise-quiz](skills/readwise-quiz) | Test yourself on something you just read — graded like a smart colleague who also read the piece |
+| [readwise-book-review](skills/readwise-book-review) | Draft a long-form book review from your highlights — synthesizing the book with your broader reading history |
+| [readwise-reader-recap](skills/readwise-reader-recap) | Conversational briefing on your recent reading — what you finished, highlighted, and had to say about it |
+| [readwise-surprise-me](skills/readwise-surprise-me) | Analyze your reading history and tell you something surprising you don't know about yourself |
+| [readwise-highlight-graph](skills/readwise-highlight-graph) | Visualize your highlights as an interactive 2D graph showing connections between ideas across sources |
+| [readwise-now-reading-page](skills/readwise-now-reading-page) | Generate a "What I'm Reading" webpage from your library — host it on your personal site |
+| [readwise-build-persona](skills/readwise-build-persona) | Build a reading profile from your highlights, tags, and history — powers personalization across all other skills |
 
 
 ### Personalization
 
-Run the `build-persona` skill first to generate a `reader_persona.md` file. The other skills (triage, feed-catchup, quiz) read this file to personalize their output to your interests, goals, and reading style.
+Run the `readwise-build-persona` skill first to generate a `reader_persona.md` file. The other skills (readwise-triage, readwise-feed-catchup, readwise-quiz) read this file to personalize their output to your interests, goals, and reading style.
 
 ## Please share yours!
 

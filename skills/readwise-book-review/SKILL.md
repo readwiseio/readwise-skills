@@ -1,5 +1,5 @@
 ---
-name: book-review
+name: readwise-book-review
 description: Draft a long-form book review from your Reader highlights — synthesizing the book with your broader reading history to generate original arguments
 ---
 
@@ -20,8 +20,8 @@ Check if Readwise MCP tools are available (e.g. `mcp__readwise__reader_list_docu
 2. **Parse the argument** as a book title or search term.
 
 ```
-/book-review Merchant Kings
-/book-review 7 Powers
+/readwise-book-review Merchant Kings
+/readwise-book-review 7 Powers
 ```
 
 ---

@@ -1,5 +1,5 @@
 ---
-name: now-reading-page
+name: readwise-now-reading-page
 description: Generate a personal "Now Reading" webpage from your Reader library
 ---
 

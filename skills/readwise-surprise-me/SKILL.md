@@ -1,5 +1,5 @@
 ---
-name: surprise-me
+name: readwise-surprise-me
 description: Analyze your reading history and tell you something surprising you don't know about yourself
 ---
 
