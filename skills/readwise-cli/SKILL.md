@@ -51,6 +51,15 @@ readwise reader-search-documents --query "AI" --author-search "Simon Willison" -
 readwise reader-search-documents --query "transformers" --published-date-gt 2024-01-01
 ```
 
+Search returns a flat list where each document carries the matched passages, not the full document object you get from `reader-list-documents`:
+
+```json
+[{"document_id": "<id>", "title": "...", "author": "...", "category": "...", "tags": [], "url": "...",
+  "matches": [{"chunk_id": "...", "plaintext": "the passage that matched"}]}]
+```
+
+One document can come back with many matches. For `word_count`, `summary`, `reading_progress` or the full text, follow up with `reader-list-documents --id <id>` or `reader-get-document-details`.
+
 ### Browsing documents
 
 ```bash
@@ -151,6 +160,17 @@ readwise readwise-search-highlights --vector-search-term "memory" --full-text-qu
 
 Full-text query fields: `document_author`, `document_title`, `highlight_note`, `highlight_plaintext`, `highlight_tags`.
 
+The response is a flat list, and the highlight text lives under `attributes`, not at the top level:
+
+```json
+[{"id": 854373674, "score": 0.0323, "url": "https://readwise.io/open/854373674",
+  "attributes": {"highlight_plaintext": "...", "highlight_note": "", "highlight_tags": [],
+                 "document_title": "...", "document_author": "...", "document_category": "...",
+                 "document_tags": []}}]
+```
+
+`score` is only meaningful relative to the other results in the same response. Absolute values are small (a 30-result set can range from 0.011 to 0.032), so don't threshold on them.
+
 ### Browsing highlights
 
 ```bash
@@ -162,7 +182,14 @@ readwise readwise-list-highlights --book-id <id>
 
 # Highlights from the last month
 readwise readwise-list-highlights --highlighted-at-gt "2025-02-01T00:00:00Z"
+
+# Book metadata is null unless you ask for it explicitly
+readwise readwise-list-highlights --page-size 100 --response-fields text,note,book_id,book_title,book_author
 ```
+
+`--response-fields` here takes a different set from `reader-list-documents`, and `id` is not one of them (it's always returned, and passing it is a validation error). Valid values: `text`, `note`, `location`, `location_type`, `url`, `color`, `updated`, `highlighted_at`, `book_id`, `tags`, `book_title`, `book_author`, `book_category`, `book_source`, `book_cover_image_url`, `book_highlights_url`, `book_source_url`, `book_asin`, `book_tags`, `book_document_note`.
+
+Worth knowing: in the default response the `book_*` fields come back as `null`. If you need to know which book a highlight came from, request them.
 
 ### Creating and editing highlights
 
