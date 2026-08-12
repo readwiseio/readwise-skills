@@ -51,6 +51,7 @@ We've started this repo off with a few skills we've really enjoyed using, but so
 | [feed-catchup](skills/feed-catchup) | Skim your Reader feed in batches — RSS, newsletters, Twitter digests — pull out the gems, mark the rest as seen |
 | [quiz](skills/quiz) | Test yourself on something you just read — graded like a smart colleague who also read the piece |
 | [book-review](skills/book-review) | Draft a long-form book review from your highlights — synthesizing the book with your broader reading history |
+| [research-brief](skills/research-brief) | Build a research brief for something you're about to write — quotable passages from your own library, the sources that contradict you, and the gaps you still need to read |
 | [reader-recap](skills/reader-recap) | Conversational briefing on your recent reading — what you finished, highlighted, and had to say about it |
 | [surprise-me](skills/surprise-me) | Analyze your reading history and tell you something surprising you don't know about yourself |
 | [highlight-graph](skills/highlight-graph) | Visualize your highlights as an interactive 2D graph showing connections between ideas across sources |
