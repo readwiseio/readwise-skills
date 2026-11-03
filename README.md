@@ -54,6 +54,7 @@ We've started this repo off with a few skills we've really enjoyed using, but so
 | [reader-recap](skills/reader-recap) | Conversational briefing on your recent reading — what you finished, highlighted, and had to say about it |
 | [surprise-me](skills/surprise-me) | Analyze your reading history and tell you something surprising you don't know about yourself |
 | [highlight-graph](skills/highlight-graph) | Visualize your highlights as an interactive 2D graph showing connections between ideas across sources |
+| [save-to-readwise](skills/save-to-readwise) | Save the best insights from a conversation with your AI as tagged highlights, so they resurface in Daily Review |
 | [now-reading-page](skills/now-reading-page) | Generate a "What I'm Reading" webpage from your library — host it on your personal site |
 | [build-persona](skills/build-persona) | Build a reading profile from your highlights, tags, and history — powers personalization across all other skills |
 
